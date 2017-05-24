@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+  - '6'
+before_install:
+  - 'npm install -g npm@latest'
+before_script:
+  - sleep 5
+deploy:
+    provider: elasticbeanstalk
+    access_key_id: AKIAIF4X53AUBYW52TDQ
+    secret_access_key:
+      secure: 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
+    region: us-west-2
+    app: Onboarding-Peacock # Elastic Beanstalk app name
+    env: Custom-env # Elastic Beanstalk env name
+    bucket_name: elasticbeanstalk-us-west-2-296082219074 # S3 bucket used by Elastic Beanstalk
+    on:
+        repo: PharosSecurity/onboarding-peacock
+        branch: master

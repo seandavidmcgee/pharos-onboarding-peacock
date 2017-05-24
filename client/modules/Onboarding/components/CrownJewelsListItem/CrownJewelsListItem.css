@@ -1,0 +1,62 @@
+.single-category {
+  margin: 10px 0;
+  padding: 0 15px;
+  border-radius: 2px;
+}
+
+.jewel-category{
+  font-size: 28px;
+  margin-bottom: 16px;
+  font-weight: 400;
+  color: #616161;
+}
+
+.jewel-category a{
+  text-decoration: none;
+  color: #616161;
+}
+
+.jewel-table table {
+    margin-bottom: 0px
+}
+
+.jewel-table td:first-child {
+    width: 25%;
+	padding: 10px 12px;
+}
+
+.jewel-table td:last-child {
+    width:25%;
+}
+
+.jewel-name{
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #757575;
+  line-height: 1.5
+}
+
+.jewel-add{
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  color: #00000d;
+  line-height: 1.5
+}
+
+.jewel-control-add{
+  margin-right : 10px;
+  margin-top: -4px;
+}
+
+.jewel-control{
+    margin-right : 10px;
+}
+
+.divider{
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  width: 250px;
+  margin: 32px auto 0;
+}
